@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.python",          // Python support
+    "ms-python.vscode-pylance",  // IntelliSense + type checking
+    "ms-toolsai.jupyter",        // Jupyter Notebook support
+    "ms-python.debugpy",         // Debugger
+    "github.vscode-pull-request-github", // GitHub integration
+    "ms-azuretools.vscode-docker" // (optional) Docker support if later needed
+  ]
+}
