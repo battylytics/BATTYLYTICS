@@ -1,8 +1,9 @@
+log_file_path = "logs/data_log2.csv"
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the CSV log file
-data = pd.read_csv("logs/data_log.csv")
+data = pd.read_csv("logs/data_log2.csv", on_bad_lines="skip")
 
 # Convert 'Time' column to datetime format
 data['Time'] = pd.to_datetime(data['Time'])
